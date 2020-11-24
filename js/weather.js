@@ -21,7 +21,7 @@ function gettingJSON(){
     console.log("Format is " + format);
 
     //set the query  
-    let query = 'http://api.openweathermap.org/data/2.5/weather?q='+location+'&units='+format+'&appid=378aef98a58bd8ad71700f9801cd1d00';
+    let query = 'https://api.openweathermap.org/data/2.5/weather?q='+location+'&units='+format+'&appid=378aef98a58bd8ad71700f9801cd1d00';
     //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=378aef98a58bd8ad71700f9801cd1d00
     //api.openweathermap.org/data/2.5/weather?q=London&units=imperial
     // Your code here.  
